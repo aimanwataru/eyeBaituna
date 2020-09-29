@@ -7,7 +7,7 @@ import 'package:flutter_login_ui/utilities/constants.dart';
 import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
 import 'package:intl/intl.dart';
 
-
+//Dashboard to add more user
 class UserDashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -187,7 +187,7 @@ class UserDashboard extends StatelessWidget {
 
 
 
-
+//Form to add user
 
 class FormScreen extends StatefulWidget {
   @override
@@ -196,7 +196,8 @@ class FormScreen extends StatefulWidget {
 
 class _FormScreenState extends State<FormScreen> {
   bool _rememberMe = false;
-
+  
+  //formfield to ask user name
   Widget _buildNameTF() {
 
     return Column(
@@ -232,6 +233,8 @@ class _FormScreenState extends State<FormScreen> {
 
   }
 
+  
+  //Formfield to ask for user device name
   Widget _buildDeviceTF() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -270,7 +273,7 @@ class _FormScreenState extends State<FormScreen> {
 
 
 
-
+//Formfield for date of birth;calendar
 
   Widget _buildDateTF() {
     DateTime _dateTime;
@@ -303,7 +306,7 @@ class _FormScreenState extends State<FormScreen> {
 
 
 
-
+//Button to submit form
 
   Widget _buildLoginBtn() {
     return Container(
