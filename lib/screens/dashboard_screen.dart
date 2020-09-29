@@ -6,6 +6,10 @@ import 'package:time_range_picker/time_range_picker.dart';
 import 'package:day_picker/day_picker.dart';
 import 'package:flutter_login_ui/utilities/constants.dart';
 
+//All screen when for dashboard when user login
+
+
+//Filter screen
 class FilterScreen extends StatefulWidget {
   @override
   _FilterScreen createState() => _FilterScreen();
@@ -115,6 +119,7 @@ class _FilterScreen extends State<FilterScreen> {
   }
 }
 
+//Bedtime screen
 class BedtimeScreen extends StatefulWidget {
   @override
   _BedtimeScreen createState() => _BedtimeScreen();
@@ -422,6 +427,8 @@ class _BedtimeScreen extends State<BedtimeScreen> {
   }
 }
 
+
+//Surfing time screen
 class SurfingtimeScreen extends StatefulWidget {
   @override
   _SurfingtimeScreen createState() => _SurfingtimeScreen();
@@ -729,6 +736,8 @@ class _SurfingtimeScreen extends State<SurfingtimeScreen> {
   }
 }
 
+
+//Data Usage screen
 class UsageScreen extends StatefulWidget {
   @override
   _UsageScreen createState() => _UsageScreen();
