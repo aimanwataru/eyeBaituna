@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+//Dashboard when user is logged and use app functions
 class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
