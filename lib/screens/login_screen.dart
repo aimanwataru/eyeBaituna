@@ -11,7 +11,7 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   bool _rememberMe = false;
-
+//Text for email
   Widget _buildEmailTF() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -46,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ],
     );
   }
-
+//Text for password
   Widget _buildPasswordTF() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,7 +81,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ],
     );
   }
-
+//Forgot password button
   Widget _buildForgotPasswordBtn() {
     return Container(
       alignment: Alignment.centerRight,
@@ -95,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
-
+//Remember me checkbox
   Widget _buildRememberMeCheckbox() {
     return Container(
       height: 20.0,
@@ -122,7 +122,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
-
+//Login button
   Widget _buildLoginBtn() {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 25.0),
@@ -172,7 +172,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
 
 
-
+//Sign up link
 
   Widget _buildSignupBtn() {
     return GestureDetector(
